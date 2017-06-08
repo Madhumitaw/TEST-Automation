@@ -57,9 +57,9 @@ public class ValidLoginFacebook {
     public void testValidFBLogin() throws InterruptedException {
 		System.out.println("Test For Valid Login with FaceBook");
 		//Set the fbemail with a valid mail id.This is left blank for security reason.While running the script a valid value will be added
-		String fbemail="madhumitaw@yahoo.co.in";
+		String fbemail="email";
 		//Set the fbpass with a valid password.This is left blank for security reason.While running the script a valid value will be added		
-		String fbpass="Platinum@16";
+		String fbpass="password";
 		driver.findElementByName("Connect with Facebook").click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
